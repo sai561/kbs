@@ -1,0 +1,45 @@
+.parent{
+display:flex;
+flex-direction:row;
+justify-content:center;
+}
+.childone{
+  width:30%;
+padding:2%;
+border:1px solid #ddd;
+margin:2%;
+box-shadow:3px 3px 3px pink;
+border-radius:20px;
+}
+.childone img{
+  width:70%;
+height:40%;
+padding:10%
+margin:70%
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+@media only screen and (min-width:320px)and(max-width:420px){
+  .parent{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  }
+  .childone{
+    width:95%;
+  padding:2%;
+  border:1px solid #ddd;
+  margin:2%;
+  box-shadow:3px 3px 3px pink;
+  border-radius:20px;
+  }
+  .childone img{
+    width:99%;
+  height:40%;
+  padding:10%
+  margin:70%
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
