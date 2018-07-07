@@ -23,5 +23,23 @@
     "institute":"Narayana",
     "data":["2014","99%"]
   }
+],
+"skills":[
+  {
+    "title":"Languages",
+    "content":["C","Python","Java","C#","C++","PHP","R"]
+  },
+  {
+    "title":"Database",
+    "content":["SQL","MongoDB","MySql"]
+  },
+  {
+    "title":"web Technologies",
+    "content":["HTML","CSS","JavaScript","PHP"]
+  },
+  {
+    "title":"Frameworks",
+    "content":["Django","CodeInteger"]
+  }
 ]
 }
