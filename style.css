@@ -11,16 +11,24 @@ margin:2%;
 box-shadow:3px 3px 3px pink;
 border-radius:20px;
 }
+.childtwo{
+  width:30%;
+padding:2%;
+border:1px solid #ddd;
+margin:2%;
+box-shadow:3px 3px 3px pink;
+border-radius:20px;
+}
 .childone img{
   width:70%;
 height:40%;
-padding:10%
-margin:70%
+padding:2%;
+margin:2%;
 display:block;
 margin-left:auto;
 margin-right:auto;
 }
-@media only screen and (min-width:320px)and(max-width:420px){
+@media only screen and (min-width:1025px) and (max-width:1550px){
   .parent{
   display:flex;
   flex-direction:column;
@@ -33,13 +41,25 @@ margin-right:auto;
   margin:2%;
   box-shadow:3px 3px 3px pink;
   border-radius:20px;
+  background-color: #fe3466;
   }
   .childone img{
     width:99%;
   height:40%;
-  padding:10%
-  margin:70%
+  padding:2%;
+  margin:2%;
   display:block;
   margin-left:auto;
   margin-right:auto;
+  background-color: #b43452;
+}
+.childtwo{
+  width:50%;
+padding:2%;
+border:1px solid #ddd;
+margin:2%;
+box-shadow:3px 3px 3px pink;
+border-radius:20px;
+background-color: #561878;
+}
 }
