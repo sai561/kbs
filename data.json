@@ -6,5 +6,22 @@
 },
 "career":{
   "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
-}
+},
+"education":[
+  {
+    "degree":"B-tech",
+    "institute":"PVP Siddardha",
+    "data":["2015-19","92%"]
+  },
+  {
+    "degree":"intermediate(m.p.c)",
+    "institute":"sri chaitanya junior college",
+    "data":["2014-15","96%"]
+  },
+  {
+    "degree":"s.s.c",
+    "institute":"Narayana",
+    "data":["2014","99%"]
+  }
+]
 }
