@@ -17,6 +17,11 @@ getfile("data.json",function(text){
 var child2=document.querySelector(".childTwo");
 function career(careerInfo){
   //console.log(careerInfo);
+  var careerHeading=document.createElement("h3");
+  child2.appendChild(careerHeading);
+  careerHeading.textContent="career objectives";
+  var careerHr=document.createElement("hr");
+  child2.appendChild(careerHr);
 var ch=document.createElement("p");
 ch.textContent=careerInfo.info;
 child2.appendChild(ch);
